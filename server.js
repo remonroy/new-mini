@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const multer = require('multer')
 const path =require('path')
 
-mongoose.connect('mongodb://localhost:27017/mini-project', {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect(`mongodb+srv://${process.env.dbUsername}:${process.env.dbPassword}@cluster0.g4p1w.mongodb.net/mini-project`, {useNewUrlParser: true, useUnifiedTopology: true})
 const db =mongoose.connection
 db.on('error',(err)=>{
     console.log(err);
