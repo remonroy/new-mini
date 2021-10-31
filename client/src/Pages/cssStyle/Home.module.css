@@ -1,0 +1,81 @@
+.iteamCard img{
+    width: 250px;
+    height: 250px;
+
+}
+.iteamCard:hover .hoverEf{
+    transform: scaleY(1);
+    transition: 0.3s;
+    background: #33333394;
+    cursor: pointer;
+}
+.iteamCard{
+    width: 250px;
+    height: 250px;
+    background: #ddd;
+    box-shadow: 5px 10px 18px #888888;
+    position: relative;
+}
+
+.hoverEf{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    /* background: #33333394; */
+    top: 0px;
+    display: grid;
+    place-items: center;
+    transform: scale(0);
+    transition: 0.3s;
+}
+.btnCl{
+    border: 2px solid tomato;
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+.btnCl a{
+    text-decoration: none;
+    font-weight: bold;
+    color: orange;
+}
+.isAuthDiv{
+    transform: translate(0px, -9px);
+}
+.isAuthLink{
+    margin-right: 127px;
+    border: 1px solid tomato;
+    padding: 5px;
+    border-radius: 25%;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    background: transparent;
+}
+.isAuthLink:hover{
+    background: #333;
+    color:white;
+    transition: 0.3s;
+}
+.isAuthView{
+    border: 1px solid tomato;
+    padding: 5px 10px;
+    border-radius: 25%;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    background: transparent;
+}
+.isAuthView:hover{
+    background: #333;
+    color:white;
+    transition: 0.3s;
+}
+.isAutDetails{
+    background: #dddddd7a;
+    width: 100%;
+    padding: 5px;
+    transform: translate(0px, 34px);
+}

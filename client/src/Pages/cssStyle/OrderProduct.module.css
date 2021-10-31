@@ -1,0 +1,80 @@
+.single {
+    display: flex;
+    justify-content: space-around;
+    background: #ddd;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    
+}
+.singleDis input[type="text"]{
+    display: block;
+    width: 60px;
+    height: 31px;
+    text-align: center;
+}
+.singleImage img{
+    width: 263px;
+    height: 194px;
+}
+.singleDis button{
+
+    border: none;
+    color: white;
+    background: #333;
+    padding: 6px;
+    font-weight: bold;
+}
+.singleDis h2{
+    font-size: 1rem;
+}
+input[type="text"]:focus {
+    outline: none;
+}
+.qty {
+    display: flex;
+    width: 161px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.delBtn button{
+    width: 38px;
+    height: 38px;
+    border: none;
+    background: #a5a2a2;
+    border-radius: 50%;
+    font-size: 16px;
+}
+.delBtn button:hover{
+    background: red;
+    transition: 0.3s;
+    transform: rotate(360deg);
+}
+.orderSum {
+    background: #ddd;
+    height: 220px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+}
+.orderSum button {
+    border: none;
+    background: #0707d7;
+    margin-top: 79px;
+    width: 100%;
+    color:white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+
+    
+}
+.orderSum h6 {
+    margin-top: 38px;
+}
+.orderSum h6 span{
+    font-size: 12px;
+    color: #6e6e6e;
+}

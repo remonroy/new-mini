@@ -1,0 +1,42 @@
+.dropp{
+    margin-left: -177px;
+}
+@media screen and (max-width:780px) {
+    .dropp{
+        margin-left: 0px;
+    }
+    .middle {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 6px;
+        align-items: center;
+    }
+    .cartLength {
+        margin-top: 10px;
+        
+    }
+    .cartLength h6{
+        margin-top: 8px;
+
+    }
+}
+.cartLength {
+    background: orange;
+    margin-left: 10px;
+    border-radius: 21px;
+}
+.cartLength h6{
+    border-radius: 50px;
+    margin-left: 44px;
+    display: inline;
+    background: #333;
+    padding: 1px 10px;
+    color: white;
+}
+.middle{
+    margin-top: 13px;
+    padding: 0px 10px;
+}
+.middle svg{
+    color: #333;
+}
